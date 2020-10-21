@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="head_name">
+        <item>臭鼬</item>
+        <item>昏睡红茶</item>
+        <item>王者荣耀</item>
+        <item>JOJO</item>
+        <item>其它</item>
+    </string-array>
+    <integer-array name="head_cy_list">
+        <!--臭鼬-->
+        <item>@drawable/xw</item>
+        <item>@drawable/xw3</item>
+        <item>@drawable/xw4</item>
+        <item>@drawable/xw5</item>
+        <item>@drawable/xw6</item>
+        <item>@drawable/xw7</item>
+        <item>@drawable/xw8</item>
+        <item>@drawable/xw9</item>
+        <item>@drawable/xw10</item>
+        <item>@drawable/xw12</item>
+        <item>@drawable/xw13</item>
+        <item>@drawable/xw14</item>
+        <item>@drawable/xw15</item>
+        <item>@drawable/xw16</item>
+        <item>@drawable/xw17</item>
+        <item>@drawable/xw18</item>
+        <item>@drawable/xw19</item>
+        <item>@drawable/xw33</item>
+        <item>@drawable/xw37</item>
+        <item>@drawable/xw38</item>
+        <item>@drawable/xw39</item>
+        <item>@drawable/xw40</item>
+        <item>@drawable/xw41</item>
+        <item>@drawable/xw42</item>
+        <item>@drawable/xw43</item>
+        <item>@drawable/xw44</item>
+        <item>@drawable/xw45</item>
+        <item>@drawable/xw46</item>
+        <item>@drawable/xw47</item>
+        <item>@drawable/xw48</item>
+        <item>@drawable/xw49</item>
+        <item>@drawable/xw50</item>
+        <item>@drawable/xw51</item>
+        <item>@drawable/xw52</item>
+        <item>@drawable/xw53</item>
+        <item>@drawable/xw54</item>
+        <item>@drawable/xw55</item>
+        <item>@drawable/xw56</item>
+        <item>@drawable/xw57</item>
+        <item>@drawable/xw58</item>
+        <item>@drawable/xw59</item>
+        <item>@drawable/xw60</item>
+        <item>@drawable/xw61</item>
+        <item>@drawable/xw62</item>
+        <item>@drawable/xw63</item>
+        <item>@drawable/xw64</item>
+          </integer-array>
+    <integer-array name="head_ys_list">
+        <item>@drawable/xw20</item>
+    </integer-array>
+    <integer-array name="head_wz_list">
+        <item>@drawable/xw22</item>
+        <item>@drawable/xw23</item>
+        <item>@drawable/xw24</item>
+        <item>@drawable/xw27</item>
+        <item>@drawable/xw29</item>
+        <item>@drawable/xw30</item>
+        <item>@drawable/xw31</item>
+        <item>@drawable/xw32</item>
+        <!--王者荣耀-->
+    </integer-array>
+    <integer-array name="head_jojo_list">
+        <item>@drawable/xw25</item>
+        <item>@drawable/xw26</item>
+        <item>@drawable/xw34</item>
+        <item>@drawable/xw35</item>
+    </integer-array>
+    <integer-array name="head_qt_list">
+        <item>@drawable/xw2</item>
+        <item>@drawable/xw11</item>
+        <item>@drawable/xw21</item>
+        <item>@drawable/xw28</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sd_fab1" android:title="fab1" />
+    <item android:id="@+id/sd_fab2" android:title="fab2" />
+    <item android:id="@+id/sd_fab3" android:title="fab3" />
+    <item android:id="@+id/sd_fab4" android:title="fab4" />
+</menu>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.HuanTanSheng:EasyPhotos:3.0.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6e6aa7e1df907d0006815e3c014484/EasyPhotos-3.0.6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6e6aa7e1df907d0006815e3c014484/EasyPhotos-3.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b6e6aa7e1df907d0006815e3c014484/EasyPhotos-3.0.6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.HuanTanSheng/EasyPhotos/3.0.6/7ba392a58e62ace85d804af0115d281400929258/EasyPhotos-3.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

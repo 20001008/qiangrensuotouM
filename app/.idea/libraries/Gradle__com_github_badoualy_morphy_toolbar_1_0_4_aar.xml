@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.badoualy:morphy-toolbar:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e004fd03aacc73dfc387f9f6938d42c/jetified-morphy-toolbar-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e004fd03aacc73dfc387f9f6938d42c/jetified-morphy-toolbar-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.badoualy/morphy-toolbar/1.0.4/9bea2dfe910d006c4d1e70ce029c08db3232f777/morphy-toolbar-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.badoualy/morphy-toolbar/1.0.4/ac46f835761a1138ef6e8b2fa38df9b6446a9c91/morphy-toolbar-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

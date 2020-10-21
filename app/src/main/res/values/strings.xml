@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">强人锁头M</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_delete">删除</string>
+    <string name="action_share">分享</string>
+    <string name="action_edit">编辑贴图</string>
+    <string name="menu_home">强人锁头M</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="about_select">我已阅读并同意以上内容</string>
+    <string name="myabout">这是一款可以 支持.jpg .png .gif(静态)图片 加上可爱（没毛病）的头像的软件\n告别有ps才能加头的时代。\n\n本软件仅提供图片的快速加头处理，作为一个快捷简单的图片工具使用，所使用的素材与Cygames So-net Taiwan，blibili等 皆无任何关系，本软件使用的图像的版权，商标权和其他知识产权属于原内容提供者所有，若软件的素材有侵犯到你的合法权利时，请及时联系作者，作者将在24小时内将相关素材删除\n\n本软件只提供图片处理功能，若使用本程序做出的图若出现侮辱，诋毁等违法行为时，造成的后果由用户自行承担，与本软件皆无关系\n\n软件目前只上架酷安市场，如果你从其它渠道或网站下载的本软件请及时卸载并在酷安市场下下载最新版，以免安装非官方应用导致隐私泄露。\n\n作者：yongh  酷安：镇妖剑\n\n特别鸣谢：\n网站《接頭霸王》台湾作者ayaya(素材提供)</string>
+</resources>

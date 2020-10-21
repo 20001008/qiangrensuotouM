@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suotouM-app.iml" filepath="$PROJECT_DIR$/suotouM-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../suotouM-强人锁头M.iml" filepath="$PROJECT_DIR$/../suotouM-强人锁头M.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../强人锁头M.iml" filepath="$PROJECT_DIR$/../强人锁头M.iml" />
+    </modules>
+  </component>
+</project>
