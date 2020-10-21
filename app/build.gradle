@@ -1,0 +1,123 @@
+apply plugin: 'com.android.application'
+apply plugin: 'AndResGuard'
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+    }
+    dependencies {
+        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.18'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://dl.bintray.com/umsdk/release' }
+    }
+}
+
+andResGuard {
+    // mappingFile = file("./resource_mapping.txt")
+    mappingFile = null
+    use7zip = true
+    useSign = true
+    // 打开这个开关，会keep住所有资源的原始路径，只混淆资源的名字
+    keepRoot = false
+    // 设置这个值，会把arsc name列混淆成相同的名字，减少string常量池的大小
+    fixedResName = "arg"
+    // 打开这个开关会合并所有哈希值相同的资源，但请不要过度依赖这个功能去除去冗余资源
+    mergeDuplicatedRes = true
+    whiteList = [
+            // for your icon
+            "R.drawable.icon",
+            // for fabric
+            "R.string.com.crashlytics.*",
+            // for google-services
+            "R.string.google_app_id",
+            "R.string.gcm_defaultSenderId",
+            "R.string.default_web_client_id",
+            "R.string.ga_trackingId",
+            "R.string.firebase_database_url",
+            "R.string.google_api_key",
+            "R.string.google_crash_reporting_api_key"
+    ]
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            "*.gif",
+    ]
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.2.18'
+        //path = "/usr/local/bin/7za"
+    }
+
+    /**
+     * 可选： 如果不设置则会默认覆盖assemble输出的apk
+     **/
+    // finalApkBackupPath = "${project.rootDir}/final.apk"
+
+    /**
+     * 可选: 指定v1签名时生成jar文件的摘要算法
+     * 默认值为“SHA-1”
+     **/
+    // digestalg = "SHA-256"
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.CY.suotou"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        config {
+            keyAlias '20001008'
+            keyPassword '20001008'
+            storeFile file("C:/Users/Administrator/suotouM.jks")
+            storePassword '20001008'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //implementation 'com.github.1993hzw:Doodle:5.5.3'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'com.github.HuanTanSheng:EasyPhotos:3.0.6'
+    implementation 'com.leinardi.android:speed-dial:3.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    implementation 'com.github.badoualy:morphy-toolbar:1.0.4'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.github.1993hzw:Androids:1.3'
+    implementation "com.umeng.umsdk:common:2.1.0"
+    implementation "com.umeng.umsdk:analytics:8.1.3"
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    implementation files('src/main/libs/doodle.jar')
+}
