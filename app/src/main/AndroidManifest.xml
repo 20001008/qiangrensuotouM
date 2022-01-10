@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.CY.suotou">
+    package="com.cy.suotouM">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -18,9 +18,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:allowBackup">
-        <activity android:name="com.CY.suotou.jz_main"></activity>
+        <activity android:name="com.cy.suotouM.jz_main"></activity>
         <activity
-            android:name="com.CY.suotou.MainActivity"
+            android:name="com.cy.suotouM.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -32,7 +32,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.CY.suotou.m.fileprovider"
+            android:authorities="com.cy.suotouM.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

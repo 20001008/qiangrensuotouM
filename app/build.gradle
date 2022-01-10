@@ -70,18 +70,18 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
     defaultConfig {
-        applicationId "com.CY.suotou"
+        applicationId "com.cy.suotouM"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.2"
+        versionCode 5
+        versionName "1.22"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
         config {
             keyAlias '20001008'
             keyPassword '20001008'
-            storeFile file("C:/Users/Administrator/suotouM.jks")
+            storeFile file("D:/mykey/suotouM.jks")
             storePassword '20001008'
         }
     }
@@ -92,6 +92,7 @@ android {
             signingConfig signingConfigs.config
         }
     }
+    ndkVersion '21.4.7075529'
 }
 
 dependencies {
@@ -116,8 +117,9 @@ dependencies {
     implementation 'com.github.badoualy:morphy-toolbar:1.0.4'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.github.1993hzw:Androids:1.3'
-    implementation "com.umeng.umsdk:common:2.1.0"
-    implementation "com.umeng.umsdk:analytics:8.1.3"
+    implementation  'com.umeng.umsdk:common:9.4.2'// 必选
+    implementation  'com.umeng.umsdk:asms:1.4.0'// 必选
     implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
     implementation files('src/main/libs/doodle.jar')
 }
